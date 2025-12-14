@@ -1,0 +1,47 @@
+name: third_app
+description: "A new Flutter chat application demo."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  # sdk: ^3.9.2
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.3.2
+
+    # 数据库
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+
+  # 状态管理
+  provider: ^6.1.1
+
+  # 图片相关
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.3.1
+
+
+  # UI组件
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+
+  #请求文件读取权限
+  # permission_handler: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/emojis/
+    - assets/images/
+    - assets/icons/
+
